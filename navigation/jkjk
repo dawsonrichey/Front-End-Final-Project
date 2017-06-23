@@ -1,0 +1,20 @@
+<div id="about" class="container-fluid">
+   <div class="row">
+        <div class="col-md-4 col-md-4-offset-2" id="name">
+            <img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" class="img-responsive" id="profile"></img>
+        </div>
+        <div class="col-md-4" id="info">
+            <h1 style="font-size: 32px; font-family: 'Roboto', Sans Serif; color: #555555;">Jocelyne B. Scott</h1>
+            <h2 style="font-size: 18px; font-family: 'Roboto', Sans Serif; color: #555555;">Gender Studies and Sexuality</h2>
+    <hr>
+Location Bloomington, IN
+<br>
+<span>Email:</span>me@jocelynescott.com
+<br>
+Phone +1 908 902 8546
+<br>
+Website http://www.jocelynescott.com
+<br>
+         </div>
+         
+         <div 

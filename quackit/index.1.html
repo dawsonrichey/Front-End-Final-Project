@@ -1,0 +1,354 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quackit Bootstrap Example Template</title>
+  <meta charset="utf-8">
+  <!-- Viewport Meta Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Styles (so that we can see the grid) -->
+<style scoped>
+.bs-example  div[class^="col"] {
+	border: 1px solid white;
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	}
+</style>
+
+</head>
+<body>
+<!DOCTYPE html>
+<title>My Example</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<div class="container-fluid">
+
+Scrollspy Example
+
+Here's an example of Scrollspy in action. Scroll down the page/frame and see each menu item highlighted as you reach the corresponding position in the page:
+
+<style scoped="true">
+article.scrollspy-example { 
+position: relative;
+overflow: scroll; 
+width: 350px;
+height: 160px;
+}
+</style>
+
+  <nav id="scrollspy-nav" class="navbar navbar-default">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a class="nav-link" href="#bast">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#brogan">Products</a></li>
+      <li class="nav-item"><a class="nav-link" href="#calceology">Contact</a></li>
+    </ul>
+  </nav>
+  <article data-spy="scroll" data-target="#scrollspy-nav" data-offset="0" class="scrollspy-example">
+    <h4 id="bast">About Us</h4>
+    <p>We've been selling all sorts of stuff to do with feet since we started.</p>
+    <p>Long story short...</p>
+    <p>(That is all).</p>
+    <h4 id="brogan">Products</h4>
+    <p>We have all sorts of products, including, but not limited to:</p>
+    <ul>
+        <li>Boots</li>
+        <li>Shoes</li>
+        <li>Socks</li>
+        <li>Bootstraps</li>
+    </ul>
+    <h4 id="calceology">Contact Us</h4>
+    <p>Do you really think we'd give out our contact details? </p>
+    <p>No... really?</p>
+    <p>Alright! Here they are:</p>
+
+    <ol>
+        <li>Walk north</li>
+        <li>Turn right at the corner</li>
+        <li>Turn right at the next corner</li>
+        <li>Then right again</li>
+        <li>Then walk back to where you started.</li>
+    </ol>
+</article>
+
+Relative Positioning
+
+Scrollspy requires the use of position: relative; on the element being spied on.
+
+This is most commonly the <body> element, so you can apply it to that element. However, when spying on other elements, you'll need to have a height set and overflow-y: scroll; applied.
+
+<div class="bs-example">
+	<!-- Bootstrap Grid -->
+	<div class="row">
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-2">.col-md-2</div>
+	  <div class="col-md-3">.col-md-3</div>
+	  <div class="col-md-7">.col-md-7</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-5">.col-md-5</div>
+	  <div class="col-md-7">.col-md-7</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-6">.col-md-6</div>
+	  <div class="col-md-6">.col-md-6</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-12">.col-md-12</div>
+	</div>
+</div>
+
+<blockquote>
+<p>Most of us are awash with beliefs of all sorts. We are steeped in the common sense and prevailing wisdom of our culture, traditions, communities, profession, family, and friends.</p>
+<footer>Tom Campbell in <cite>My Big Toe</cite></footer>
+</blockquote>
+
+<blockquote class="blockquote-reverse">
+<p>Most of us are awash with beliefs of all sorts. We are steeped in the common sense and prevailing wisdom of our culture, traditions, communities, profession, family, and friends.</p>
+<footer>Tom Campbell in <cite>My Big Toe</cite></footer>
+</blockquote>
+
+<dl>
+<dt>Arahat</dt>
+<dd>The "Perfected One", who has overcome The Three Poisons of Desire, Hatred and Ignorance. </dd>
+<dt>Bodhi</dt>
+<dd>Awakened wisdom.</dd>
+<dt>Zen</dt>
+<dd>Meditative absorption in which all dualistic distinctions are eliminated.</dd>
+</dl>
+
+<dl class="dl-horizontal">
+<dt>Arahat</dt>
+<dd>The "Perfected One", who has overcome The Three Poisons of Desire, Hatred and Ignorance. </dd>
+<dt>Bodhi</dt>
+<dd>Awakened wisdom.</dd>
+<dt>Zen</dt>
+<dd>Meditative absorption in which all dualistic distinctions are eliminated.</dd>
+</dl>
+
+The <code>accesskey</code> attribute can be used on any HTML5 element.
+
+To save the document on a Mac, press <kbd><kbd>Command</kbd>+<kbd>S</kbd></kbd>
+
+<pre>This text has
+been formatted using
+   the HTML pre tag. The browser should
+      display all white space
+as it was entered.
+</pre>
+
+Hover Rows 
+
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<th>Footer 1</th>
+<th>Footer 2</th>
+<th>Footer 3</th>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</tbody>
+</table>
+
+Buttons Elements
+
+<a class="btn btn-default" href="#" role="button">Link</a>
+<button class="btn btn-default" type="submit">Button</button>
+<input class="btn btn-default" type="button" value="Input">
+<input class="btn btn-default" type="submit" value="Submit">
+
+Button Size
+
+<button type="button" class="btn btn-success btn-lg">Large</button>
+<button type="button" class="btn btn-success">Default</button>
+<button type="button" class="btn btn-success btn-sm">Small</button>
+<button type="button" class="btn btn-success btn-xs">Extra small</button>
+
+Block Level Buttons
+
+<button type="button" class="btn btn-danger btn-lg btn-block">Block level button</button>
+
+Responsive Images
+
+Bootstrap provides the .img-responsive class to make an image scale appropriately across devices. This class adds max-width: 100%, height: auto, and display: block to the image. This ensures that the image scales to the parent element.
+
+<img src="/pix/samples/remarkables_queenstown_new_zealand.jpg" class="img-responsive" alt="Photo of The Remarkables mountain range in Queenstown, New Zealand">
+
+Centering Responsive Images
+
+You can center responsive images by using Bootstrap's .center-block class (not center-text).
+
+Image Shapes
+
+You can use Bootstrap to render images as thumbnails, with rounded corners, and as a circle.
+
+<img src="https://www.quackit.com/pix/samples/3s.jpg" class="img-rounded" alt="Photo of Rob Roy Glacier near Wanaka, New Zealand">
+<img src="https://www.quackit.com/pix/samples/2s.jpg" class="img-circle" alt="Photo taken on the trek to Rob Roy Glacier">
+<img src="https://www.quackit.com/pix/samples/1s.jpg" class="img-thumbnail" alt="Photo of Pohutukawa tree in Mapua, New Zealand">
+
+Bootstrap 3 provides classes that are specifically used to style thumbnail images. Used in conjunction with the grid system, thumbnails can present images, videos, text, etc in grids.
+
+Default Thumbnails
+
+For a basic set of thumbnails, use the .thumbnail class and insert the images into a grid.
+
+<div class="row">
+
+<div class="col-xs-6 col-md-3">
+<a href="#" class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/15s.jpg" alt="Boats at Phi Phi, Thailand">
+</a>
+</div>
+
+<div class="col-xs-6 col-md-3">
+<a href="#" class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/14s.jpg" alt="Resort at Boracay, Philippines">
+</a>
+</div>
+
+<div class="col-xs-6 col-md-3">
+<a href="#" class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/3s.jpg" alt="Rob Roy Glacier near Wanaka, New Zealand">
+</a>
+</div>
+
+<div class="col-xs-6 col-md-3">
+<a href="#" class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/2s.jpg" alt="Views near Rob Roy Glacier">
+</a>
+</div>
+
+</div>
+
+Captions
+
+<div class="row">
+
+<div class="col-xs-6 col-md-3">
+<div class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/15s.jpg" alt="Boats at Phi Phi, Thailand">
+<div class="caption">
+<p>Etizzle shiznit fo shizzle sizzle augue hendrerizzle accumsizzle. Gizzle izzle est. Vivamizzle hizzle dolor, sure vitae, yippiyo id, ultrices izzle, sheezy.</p>
+<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+</div>
+</div>
+</div>
+
+<div class="col-xs-6 col-md-3">
+<div class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/14s.jpg" alt="Resort at Boracay, Philippines">
+<div class="caption">
+<p>Vestibulum ante pimpin' primizzle in shut the shizzle up orci luctizzle gangsta yo mamma posuere cubilia Break yo neck, yall; Mammasay mammasa mamma oo sa dolor.</p>
+<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+</div>
+</div>
+</div>
+
+<div class="col-xs-6 col-md-3">
+<div class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/3s.jpg" alt="Rob Roy Glacier near Wanaka, New Zealand">
+<div class="caption">
+<p>Integizzle faucibus. Pot pharetra blandit quizzle. Fizzle rutrizzle aliquizzle orci. Go to hizzle facilisis.</p>
+<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+</div>
+</div>
+</div>
+
+<div class="col-xs-6 col-md-3">
+<div class="thumbnail">
+<img src="https://www.quackit.com/pix/samples/2s.jpg" alt="Views near Rob Roy Glacier">
+<div class="caption">
+<p>Lorizzle ipsizzle dolor sizzle amizzle, ma nizzle adipiscing pot. Izzle sapien velit, fizzle get down get down, suscipit quis, crackalackin vizzle, gangsta.</p>
+<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+</div>
+</div>
+</div>
+
+</div>
+
+Default list groups
+
+<ul class="list-group">
+<li class="list-group-item">These Boots Are Made For Walking</li>
+<li class="list-group-item">Eleanor, Put Your Boots On</li>
+<li class="list-group-item">Puss 'n' Boots</li>
+<li class="list-group-item">Die With Your Boots On</li>
+<li class="list-group-item">Fairies Wear Boots</li>
+</ul>
+
+Explanation
+
+To create a basic carousel, apply .carousel and .slide to an outer container (with its own ID).
+
+For the scrollable contents, wrap all items in a .carousel-inner and give each item an .item class.
+
+For the "indicator" controls (the little clickable circles at the bottom, center), add a list with .carousel-indicators, as well as the applicable .data-target and .data-slide-to attributes.
+
+For the "Previous/Next" controls, use an <a> with class="left carousel-control" for the "Previous" button, and class="right carousel-control" for the "Next" button.
+
+Also, you must apply .active to one of the slides in the carousel, otherwise the carousel won't be visible. This class allows you to set one slide as the initial slide (i.e. the starting slide).
+
+I've also added my own styles to center the images horizontally in the carousel.
+
+Captions
+
+You can add captions to your slideshow by adding a <div> with the .carousel-caption class applied. This goes inside each .item.
+
+<!-- Styles (so that we can see the grid) -->
+<style scoped>
+.bs-example  div[class^="col"] {
+	border: 1px solid white;
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	}
+</style>
+
+</div>
